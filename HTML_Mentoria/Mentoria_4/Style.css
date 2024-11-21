@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+.cabecera {
+    background-color: #0056b3;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.menu {
+    background-color: #0056b3;
+    align-items: center;
+    padding: 10px 20px;
+    justify-content: space-between; /*separa items a extremos*/
+    display: flex; /*pone los elementos en fila*/
+}
+.logo-menu {
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+/*hover es solo cuando se pase el cursor sobre el elemento*/
+.logo-menu:hover {
+    color: #ffeb3b;
+    transform: scale(1.1); /*Aumentar el tamaño del texto*/
+}
+.menu-items {
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+.menu-items:hover {
+    background-color: #00408a;
+    border-radius: 5px; /*Redondear bordes*/
+}
+.contenido-pagina {
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: white;
+    box-shadow: 0 0 4px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-between;
+}
+.texto-contenido {
+    width: 30%; /*Ajustar tamaño del texto*/
+    margin-bottom: 20px;
+    text-align: justify;
+}
+.texto-contenido h2{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.imagen-contenido {
+    width: 48%; /*Ajustar el ancho del contenedor de las imagenes*/
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end; /*alinear imagenes a la derecha*/
+}
+.imagen-contenido img {
+    max-width: 31%;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.imagen-contenido img:hover {
+    transform: rotate(-8deg);
+}
+/*Propiedades para el pie de pagina*/
+.pie-pagina {
+    background: linear-gradient(90deg, #007bff, #0056b3);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+.pie-pagina a{
+    color: #fff;
+    margin: 10px;
+    text-decoration: none;
+}
+.pie-pagina a:hover {
+    color: #ffeb3b;
+}
+.pie-pagina b{
+    color: #ffeb3b;
+}
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 1000;
+    transition: opacity 0.3s ease;
+}
+.back-to-top:hover {
+    background-color: #555;
+}
+.show-back-to-top {
+    display: block;
+    opacity: 0.8;
+}

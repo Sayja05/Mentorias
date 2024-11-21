@@ -1,0 +1,26 @@
+/*Cuando pones * es para modificar todos los elementos dentro de la pagina*/
+* {
+    margin: 1px; /*Pone una margen*/
+    padding: 20px; /*Separa un elemento de otro*/
+    background-color: #fff; /**/
+    color: #fff; /*Cambia el color*/
+    text-align: center; /*Como va a estar alineado el texto*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /*tipo de letra en el body*/
+    justify-content: space-between; /*separa items a extremos*/
+    display: flex; /*pone los elementos en fila*/
+    border-radius: 5px; /*Redondear bordes*/
+    display: block; /*ocupa el objeto en bloque 100% de la pantalla*/
+    font-size: small; /*Tamaño de la letra*/
+
+}
+  /*Cuando pones . antes de una palabra es para editar una clase en especifico ejm: .img-contenido o .ima.png*/
+.img-contenido{
+    width: 0 auto; /*Para poner el ancho de una imagen, texto, etc*/
+    height: 0 auto; /*para poner el alto de la imagen, texto, etc*/
+    }
+
+    /*hover es solo cuando se pase el cursor sobre el elemento*/
+.logo-menu:hover {
+    color: #ffeb3b;
+    transform: scale(1.1); /*Aumentar el tamaño del texto*/
+}

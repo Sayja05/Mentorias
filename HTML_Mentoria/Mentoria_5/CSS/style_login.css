@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../IMG/Slider-3-1.jpg);
+    width: 100%;
+    backdrop-filter: blur(5px);
+    background-size: cover;
+    background-position: center;
+    min-height: 100hv;
+    display: flex;
+    flex-direction: column;
+
+}
+.form_ingreso{
+    width: 30%;
+    margin-left: 35%;
+    background-color: rgba(187, 176, 185, 0.396);
+    margin-top: 10%;
+    border-radius: 8px;
+    box-shadow: 20px solid #000000;
+}
+.form_ingreso img{
+    width: 50%;
+    margin-left: 25%;
+
+}
+.form_ingreso h3{
+    color: white;
+    text-align: center;
+    font-size: 1.6em;
+}
+.form_ingreso input, select{
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 8px;
+    border: none;
+    margin-top: 10px;
+    padding: 15px 25px;
+}
+.form_ingreso input[type="submit"] {
+    background-color: rgb(154, 87, 154);
+    color: white;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+.form_ingreso input[type="submit"]:hover{
+    background-color: rgb(72, 7, 72);
+    transform: scale(1.1);
+}
+.form_ingreso p{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-top: 8px;
+    font-family: monospace;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+.form_ingreso a{
+    text-decoration: none;
+}
+.form_ingreso input, select{
+    background-color: rgba(255, 255, 255, 0.526);
+    font-weight: bold;
+}
+
+.pie-pagina {
+    background: linear-gradient(90deg,#011e3b, #513865, #020611);
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 12px;
+    margin-top: 10%;
+}
+.pie-pagina a {
+    color: #fff;
+    margin: 5px;
+    text-decoration: none;
+}
+.pie-pagina a:hover {
+    color: #40216b;
+}
+
+.pie-pagina b {
+    color: #000000;
+}
+

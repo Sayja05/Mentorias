@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgba(194, 230, 230, 0.247);
+}
+.banner {
+    background-image: url(IMG/banner.jpg);
+    width: 100%;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 250px;
+}
+.titulo_principal{
+    background-color: rgb(120, 145, 137);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 3em;/*unidad em multiplica el tamaño*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.contenido_principal {
+    width: 80%;
+    margin-left: 10%;
+}
+.seccion_contenido{
+    background-color: white;
+    margin-top: 30px;
+    padding: 20px;
+    border-left: 3px solid rgb(120, 145, 137);
+    box-shadow: 0 4px 8px grey;
+}
+.titulo_contenido{
+    background-color: rgb(120, 145, 137);
+    padding: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: white;
+    border-radius: 3px;
+}
+.formulario_contenido{ 
+    padding: 20px;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 500px;
+    font-weight: bold;
+    gap: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+.grupo_formulario{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+label {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-left: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.campo_formulario{
+    border: 2px solid  rgb(63, 108, 93);
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 5px;
+    width: 100%;
+    margin: 10px;
+}
+.campo_formulario:focus{
+    background-color:  rgb(63, 108, 93);
+    box-shadow: 0 0 8px rgb(63, 108, 93);
+}
+.boton_formulario{
+    width: 100%;
+    margin: 10px;    
+    background-color: rgb(89, 88, 88);
+    padding: 10px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    margin: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.boton_formulario:hover{
+    background-color: rgb(63, 108, 93);
+}
+.boton_formulario:active{
+    transform: scale(1.1);
+}
+.pie{
+    background-color: rgb(120, 145, 137);
+    padding: 15px;
+    margin-top: 15px;
+    width: 100%;
+}
+.texto-pie{
+    color: white;
+    text-align: center;
+}
+

@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(245, 245, 245);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+.cabecera{
+    background: linear-gradient(90deg, #044b04, #52b852);
+    width: 100%;
+    text-align: center;
+    color: #058c10;
+    padding: 20px;
+    -webkit-text-stroke: 2px #ffffff; /*borde a cada letra*/
+    font-size: 1.5em;/*Aumenta el tamaño original según el valor dado*/
+    text-transform: uppercase;/*Tranforma el texto a mayúscula*/
+    text-shadow: 1px 2px 3px #ffffff ;
+    /*
+    Valor 1: sombra vertical
+    valor 2: sombra horizontal
+    valor 3: tamaño de la sombra
+    */
+    box-shadow: 10px 0px 15px #3d3d3d;
+}
+.contenido{
+    width: 80%;
+    margin: 0 auto;
+    margin-left: 10%;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+    border-left: 5px solid #058c10; /*para hacer un borde a la izquierda*/
+    text-align: justify;
+}
+.tabla h3{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    border-collapse: collapse;
+}
+.tabla table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+.tabla th{
+    background: linear-gradient(90deg, #044b04, #52b852);
+    color: white;
+    text-align: center;
+    padding: 12px;
+}
+.tabla td{
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+.pie{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    padding: 20px;
+}
